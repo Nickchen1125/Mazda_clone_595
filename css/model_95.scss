@@ -1,0 +1,96 @@
+@import url(./main_95.css);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-model {
+  display: flex;
+  min-height: 87.4vh;
+
+  .model-right {
+    width: 32%;
+    background-color: #f5f5f5;
+    .test-drive-container {
+      width: 50%;
+      padding: 20px 0px 20px 20px;
+      .test-drive {
+        padding: 28px 0px;
+        .text {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          h4 {
+            font-size: 14px;
+            line-height: 22px;
+            margin-bottom: 22px;
+            font-weight: 500;
+          }
+          .btn-4-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            p {
+              font-size: 11px;
+              font-weight: 500;
+              margin-bottom: 28px;
+            }
+            .btn-4 {
+              background-color: #191919;
+              color: #fff;
+              border: none;
+              border-radius: 3px;
+              padding: 0 42px 0 44px;
+              font-size: 13px;
+              height: 45px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .model-left {
+    display: flex;
+    justify-content: right;
+    width: 68%;
+
+    .model-container {
+      display: grid;
+      width: 60%;
+      justify-content: right;
+      grid-template-columns: 1fr 1fr 1fr;
+      align-items: center;
+      .mod {
+        padding: 0px 10px;
+        .mod-container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding: 10px 20px;
+          img {
+            max-width: 100%;
+            max-height: 100%;
+          }
+          .mod-text-container {
+            padding: 10px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h4 {
+              font-size: 15px;
+              line-height: 24px;
+              font-weight: 500;
+            }
+            span.price {
+              margin: 0px 0px 5px;
+              font-weight: 500;
+            }
+          }
+        }
+      }
+    }
+  }
+}
